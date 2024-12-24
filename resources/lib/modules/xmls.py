@@ -53,7 +53,7 @@ main_menu_custom1_xml = '''<?xml version="1.0" encoding="UTF-8"?>
   <include name="Custom1MainMenu">
     <item>
       <label>{cpath_header}</label>
-      <onclick>ActivateWindow(Videos,{main_menu_path},return)</onclick>
+      <onclick>ActivateWindow(programs,plugin://plugin.library.node.editor/?ltype=video,return)</onclick>
       <property name="menu_id">$NUMBER[23000]</property>
       <property name="id">custom1</property>
       <visible>!Skin.HasSetting(HomeMenuNoCustom1Button)</visible>
